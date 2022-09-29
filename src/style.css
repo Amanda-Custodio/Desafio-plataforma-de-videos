@@ -1,0 +1,33 @@
+main {
+    background-color: #f7f7f7;
+    position: relative;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-area: repeat(3), repeat(5);
+}
+
+.video-atual {
+    position: relative;
+    width: 543px;
+    
+}
+
+.tela-video-principal {
+    margin: 38px 322px 160px 35px;
+    background-color: #c4c4c4;
+    width: 543px;
+    height: 217px;
+    position: relative;
+}
+
+.informacoes-video-atual h1{
+    font-weight: 700;
+    font-size: 18px;
+    grid-gap: 12px;
+    position: absolute;
+}
+
+.infomacoes-videos-relacionados {
+    grid-area: 2 / 1 / 4 / 6;
+}
